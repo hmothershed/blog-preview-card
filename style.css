@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --yellow: hsl(47, 88%, 63%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+}
+
+body{
+    font-family: 'Figtree', sans-serif;
+    background-color: var(--yellow);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.container {
+    align-items: flex-start;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: none;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid var(--gray-950);
+    background-color: var(--white);
+    box-shadow: 8px 8px var(--gray-950);
+    gap: 16px;
+}
+
+#headerImg {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h5 {
+    background-color: var(--yellow);
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+    display: inline;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h1:hover {
+    color: var(--yellow);
+}
+
+p {
+    color: var(--gray-500);
+    font-size: 14px;
+}
+
+.img-footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-footer #greg-icon {
+    width: 30px;
+}
+
+.img-footer h2 {
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    color: black;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: var(--white);
+}
